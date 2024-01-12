@@ -35,6 +35,12 @@ git clone https://github.com/Valentina17varela/Discord_Clone.git
 pip install -r requirements.txt
 ```
 
+- Migrar las bases de datos
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
 - Correr aplicacion
 ```
 python manage.py runserver
