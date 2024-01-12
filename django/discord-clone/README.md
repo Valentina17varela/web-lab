@@ -8,21 +8,27 @@
 
 Django application, a messaging service that allows users to communicate through channels.
 
-## Functionalities
+<div align="center">
+  <img src="https://github.com/Valentina17varela/Discord_Clone/blob/main/static/images/preview.PNG" width="900"/>
+  <img src="https://github.com/Valentina17varela/Discord_Clone/blob/main/static/images/room.PNG" width="900"/>
+  <img src="https://github.com/Valentina17varela/Discord_Clone/blob/main/static/images/register.PNG" width="900"/>
+</div>
+
+## 🚀 Functionalities
 
 - Register / Login : You must create an account to interact with the community.
 - Edit profile: You can edit your personal information, as well as save a profile picture.
 - Create rooms: You can create your own rooms to share information about whatever you like, other users will be able to join these rooms and exchange information.
 - Search: You can search for key terms within the rooms and posts.
 
-## Deploy
+## ⚙ Deploy
 
-- Clonar el siguiente repositorio
+- Clone the following repository
 ```
 git clone https://github.com/Valentina17varela/Discord_Clone.git
 ```
 
-- Crear el entorno virtual y activarlo
+- Create the virtual environment and activate it
 
   - Windows:
   ```
@@ -37,20 +43,20 @@ git clone https://github.com/Valentina17varela/Discord_Clone.git
   source env/bin/activate
   ```
 
-- Instalar las dependencias necesarias
+- Install the necessary dependencies
 ```
 pip install -r requirements.txt
 ```
 
-- Migrar las bases de datos
+- Migrate databases
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-- Correr aplicacion
+- Run application
 ```
 python manage.py runserver
 ```
-El servidor iniciará en http://127.0.0.1:8000/
+Server will start in http://127.0.0.1:8000/
 <br>
