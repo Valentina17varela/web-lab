@@ -21,7 +21,7 @@ git clone https://github.com/Valentina17varela/Discord_Clone.git
   ```
   pip install virtualenv
   py -m venv env
-  .\env\Scripts\activate
+  env\scripts\activate
   ```
   - Unix/macOS:
   ```
