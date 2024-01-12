@@ -8,6 +8,13 @@
 
 Django application, a messaging service that allows users to communicate through channels.
 
+## Functionalities
+
+- Register / Login : You must create an account to interact with the community.
+- Edit profile: You can edit your personal information, as well as save a profile picture.
+- Create rooms: You can create your own rooms to share information about whatever you like, other users will be able to join these rooms and exchange information.
+- Search: You can search for key terms within the rooms and posts.
+
 ## Deploy
 
 - Clonar el siguiente repositorio
