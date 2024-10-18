@@ -68,7 +68,7 @@ const PendingCheckIns = () => {
 
         const { error } = await discoverReaders({
             discoveryMethod: 'bluetoothScan',
-            simulated: true,
+            simulated: false,
         });
 
         setIsDiscovering(false);
@@ -123,7 +123,7 @@ const PendingCheckIns = () => {
             const customerSearchResponse = await fetch(`https://api.stripe.com/v1/customers/search?query=email:'${checkIn.email}'`, {
                 method: 'GET',
                 headers: {
-                    'Authorization': `Bearer sk_test_REDACTED`,  // Reemplaza con tu clave secreta de Stripe
+                    'Authorization': `Bearer sk_test_REDACTED`,
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
             });
