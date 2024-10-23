@@ -68,7 +68,7 @@ const PendingCheckIns = () => {
 
         const { error } = await discoverReaders({
             discoveryMethod: 'bluetoothScan',
-            simulated: true,
+            simulated: false,
         });
 
         setIsDiscovering(false);
