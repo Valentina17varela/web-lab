@@ -66,7 +66,7 @@ const PendingCheckIns = () => {
 
         const { error } = await discoverReaders({
             discoveryMethod: 'bluetoothScan',
-            simulated: false,
+            simulated: true,
         });
 
         setIsDiscovering(false);
@@ -412,25 +412,6 @@ const PendingCheckIns = () => {
     );
 };
 
-const IndexCheckIns = () => {
-    const fetchTokenProvider = async () => {
-        const response = await fetch(`https://email.mvr-management.com/connection_token`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
-        const { secret } = await response.json();
-        return secret;
-      };
-
-    return (
-        <StripeTerminalProvider logLevel='verbose' tokenProvider={fetchTokenProvider}>
-            <PendingCheckIns />
-        </StripeTerminalProvider>
-    );
-}
-
 const styles = StyleSheet.create({
   textDefault: {
     color: '#333',
@@ -619,4 +600,4 @@ cancelButton: {
 },
 });
 
-export default IndexCheckIns;
+export default PendingCheckIns;
