@@ -1,0 +1,49 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.content {
+  margin: 8rem 3rem;
+}
+
+.bg-green {
+  background-color: rgb(217, 245, 217);
+}
+
+.bg-green-dark {
+  background-color: rgb(171, 224, 171);
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.alert {
+  position: fixed;
+  top: 7rem;
+  right: 5rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: rgb(88, 201, 148);
+  color: white;
+}
+
+.alert-error {
+  background-color: rgb(243, 62, 86);
+  color: white;
+}
+
+.text-carousel {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #fffdfd;
+}
