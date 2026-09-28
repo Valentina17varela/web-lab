@@ -38,12 +38,12 @@ Restaurant information:
 
 <div align="center">
   <div class="image-container">
-        <img src="/multimedia/home.PNG">
-        <img src="/multimedia/menu.PNG">
+        <img src="multimedia/home.PNG">
+        <img src="multimedia/menu.PNG">
     </div>
     <div class="image-container">
-        <img src="/multimedia/book.PNG">
-        <img src="/multimedia/about.PNG">
+        <img src="multimedia/book.PNG">
+        <img src="multimedia/about.PNG">
 </div>
 </div>
 
