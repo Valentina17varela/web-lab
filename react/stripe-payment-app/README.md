@@ -11,9 +11,7 @@ This Android mobile app makes it easy to manage unpaid check-ins at rental prope
 🎬 [Here](https://youtu.be/cSkEjiw5qZo) is a demonstration of how the application works.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0aff6072-760e-4178-9120-458f26112b1e" alt="Image 1" width="250"/>
-  <img src="https://github.com/user-attachments/assets/f933aae9-8f15-4dc2-acb4-5c8330c34631" alt="Image 2" width="250"/>
-  <img src="https://github.com/user-attachments/assets/1ff73c90-43f8-4369-a5ef-81d9404860b1" alt="Image 3" width="250"/>
+  <img width="1525" height="951" alt="Screenshot 2026-10-15 at 2 12 11 PM" src="https://github.com/user-attachments/assets/38ecc257-67b6-4363-8c3f-cc4106d18282" />
 </p>
 
 
